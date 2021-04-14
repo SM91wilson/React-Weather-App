@@ -3,6 +3,7 @@
 import React from "react";
 import Header from "./components/header/header";
 import SearchBar from "./components/searchBar/searchBar";
+import WeatherDiv from "./components/weatherDiv/weatherDiv";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <div class='container'>
         <div class='row'>
           <div>
-            {/* <weather> */}
+            <WeatherDiv />
             {/* <forecast> */}
           </div>
         </div>
